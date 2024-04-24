@@ -1,0 +1,144 @@
+<!--
+Author: W3layouts
+Author URL: http://w3layouts.com
+-->
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="assets/js/jquery-3.3.1.min.js"></script>
+    <script src="assets/js/theme-change.js"></script>
+    <script src="assets/js/bootstrap.min.js"></script>
+    <title>Poultry Field - Agriculture & Farming Category Bootstrap Responsive Template | Services :: W3layouts </title>
+    <!--/google-fonts -->
+    <link href="//fonts.googleapis.com/css2?family=Outfit:wght@400;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <!--//google-fonts -->
+    <!--/Template-CSS -->
+    <link rel="stylesheet" href="popUp.css">
+    <!--//Template-CSS -->
+    <style type="text/css">
+        #close{
+            position: absolute;
+            margin: -100px 0px 0px 0px;
+        }
+        #popup{
+/*            border: solid;*/
+            background: rgb(0 0 0 / 90%);
+            height: 527px;
+            overflow: scroll;
+            overflow-x: hidden;
+        }
+        #cart-item{
+            border: solid;
+            padding: 10px;
+            margin-bottom: 10px;
+/*            display: inline-block;*/
+        }
+        #cart-item-image{
+            display: inline-block;
+        }
+        #cart-item-image img{
+            width: 70px;
+            height: 70px;
+        }
+        #cart-item-name{
+            position: absolute;
+            display: inline-block;
+/*            border: solid;*/
+            padding: 0px 0px 0px 20px;
+            margin: -5px 0px 0px 30px;
+        }
+        #cart-item-name p{
+            color: white;
+            font-size: 14px;
+            font-weight: bold;
+        }
+        #Item-price{
+            position: absolute;
+            display: inline-block;
+            margin: 45px 0px 0px 50px;
+        }
+        #Item-price p{
+            color: white;
+            font-size: 12px;
+        }
+        #cart-item-number table{
+            border-collapse: collapse;
+            margin: 5px 0px 0px 0px;
+        }
+        #cart-item-number td{
+            border: solid 1px;
+            color: white;
+            text-align: center;
+        }
+        .counter{
+            padding: 0px 15px 0px 15px;
+        }
+        .all-product-container{
+            padding-left: 40px;
+            padding-right: 40px;
+        }
+        #checkOut{
+            color: white;
+            width: 100%;
+            margin: -10px 0px 0px 0px;
+            background: rgb(0 0 0 / 90%);
+            text-align: center;
+        }
+        .subtotal p{
+            display: inline-block;
+            color: white;
+        }
+        .subtotalAmount{
+            position: absolute;
+            font-weight: bold;
+            right: 17px;
+        }
+    </style>
+</head>
+
+<body>
+    <!--/Header-->
+        <div class="container">
+            <nav class="navbar navbar-expand-lg navbar-light stroke py-lg-0">
+                    <span class="navbar-toggler-icon fa icon-expand fa-bars"></span>
+                    <span class="navbar-toggler-icon fa icon-close fa-times"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarScroll">
+                    <!--/search-right-->
+                    <ul class="header-search me-lg-4">
+                        <li class="nav-item search-right">
+                            <a href="#search" class="btn search-btn btn-primary">My Cart</a>
+                            <!-- search popup -->
+                            <div id="search" class="pop-overlay">
+                                <div class="popup" id="popup">
+                                    <!-- <div class="popup-header">
+                                        <h3>Cart Overview</h3>
+                                        <a class="close" href="#close" id="close">×</a>
+                                    </div> -->
+                                    <h3 class="title-w3l two mb-4 text-left">Cart Overview</h3>
+                                    <a class="close" href="#close" id="close">×</a>
+                                    <div class="subtotal">
+                                        <p>Subtotal(<span id="subtotal">3</span> items)</p>
+                                        <p class="subtotalAmount"><span id="subtotalAmount">14,500</span></p>
+                                    </div>
+                                    <div id="cartDisplay">
+                                    </div>
+                                </div>
+                                <a id="checkOut" href="checkOut.php">Continue to Checkout</a>
+                            </div>
+                            <!-- /search popup -->
+                        </li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+</body>
+
+</html>
